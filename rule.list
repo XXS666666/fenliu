@@ -69,8 +69,4 @@ DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,ipleak.net
-RULE-SET,China
-RULE-SET,ChinaIP
-RULE-SET,ChinaDomain
-GEOIP,CN
-MATCH
+
