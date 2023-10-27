@@ -1,3 +1,7 @@
+RULE-SET,Advertising,去广告
+RULE-SET,Hijacking,去广告
+RULE-SET,Privacy,去广告
+
 DOMAIN,cdn.u8899.de
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,cdn.jsdelivr.net
