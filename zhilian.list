@@ -1,84 +1,14 @@
- ## 代理规则
- DOMAIN,cdn.u8899.de,PROXY
- ## 常用国内直连优先
- DOMAIN-SUFFIX,wechat.com,DIRECT
- DOMAIN-SUFFIX,qq.com,DIRECT
- DOMAIN-SUFFIX,tencent.com,DIRECT
- ## 全球代理
- DOMAIN-SUFFIX,onedrive.live.com,PROXY
- DOMAIN-SUFFIX,cdn.jsdelivr.net,PROXY
- DOMAIN-SUFFIX,pureapk.com,PROXY
- DOMAIN-SUFFIX,v2rayssr.com,PROXY
- DOMAIN-SUFFIX,v2fly.org,PROXY
- DOMAIN-SUFFIX,dubox.com,PROXY
- DOMAIN-SUFFIX,hootsuite.com,PROXY
- DOMAIN-SUFFIX,ow.ly,PROXY
- DOMAIN-SUFFIX,goo.gl,PROXY
- DOMAIN-SUFFIX,share.dmhy.org,PROXY
- DOMAIN-SUFFIX,duyaoss.com,PROXY
- DOMAIN-SUFFIX,52.mk,PROXY
- DOMAIN-SUFFIX,flowercloud.net,PROXY 
- DOMAIN-SUFFIX,hostloc.com,PROXY
- DOMAIN-SUFFIX,theinspirationgrid.com,PROXY
- DOMAIN-SUFFIX,nekoneko.cloud,PROXY
- DOMAIN-SUFFIX,kejilion.xyz,PROXY
- DOMAIN-SUFFIX,idc.wiki,PROXY
- DOMAIN-SUFFIX,ovhcloud.com,PROXY
- DOMAIN-SUFFIX,233v2.com,PROXY
- DOMAIN,www.v2ray.com,PROXY
- DOMAIN,translate.googleapis.com,PROXY
- DOMAIN-SUFFIX,nivod.tv,PROXY
- DOMAIN-SUFFIX,mudvod.tv,PROXY
- DOMAIN-SUFFIX,openai.com,PROXY
- DOMAIN-SUFFIX,chinadigitaltimes.net,PROXY
- DOMAIN-SUFFIX,sms-activate.org,PROXY
- DOMAIN-SUFFIX,katfile.com,PROXY
- DOMAIN-SUFFIX,ping.pe,PROXY
- DOMAIN-SUFFIX,openstreetmap.org,PROXY #地图？
- DOMAIN-SUFFIX,gstatic.com,PROXY #地图？
- DOMAIN-SUFFIX,terabox.com,PROXY #百度网盘海外版
- ## Rule-SET区域
- RULE-SET,Advertising,REJECT
- RULE-SET,Hijacking,REJECT
- RULE-SET,Privacy,REJECT
- DOMAIN-SUFFIX,telegram.org,PROXY
- RULE-SET,Telegram,PROXY
- RULE-SET,Netflix,PROXY
- RULE-SET,Disney,PROXY
- RULE-SET,YouTube,PROXY
- RULE-SET,Bahamut,PROXY
- RULE-SET,Bilibili,DIRECT
- DOMAIN-SUFFIX,biliapi.net,DIRECT
- DOMAIN-SUFFIX,bilibili.com,DIRECT
- DOMAIN-SUFFIX,bilivideo.com,DIRECT
- DOMAIN-SUFFIX,hdslb.com,DIRECT
- RULE-SET,GoogleDrive,PROXY
- DOMAIN-SUFFIX,onedrive.live.com,PROXY
- RULE-SET,Microsoft,PROXY
- RULE-SET,HBO,PROXY
- RULE-SET,TikTok,PROXY
- RULE-SET,Apple,PROXY
- RULE-SET,Steam,PROXY
- RULE-SET,Blizzard,PROXY
- RULE-SET,Discord,PROXY
- RULE-SET,Nintendo,PROXY
- RULE-SET,Origin,PROXY
- RULE-SET,Xbox,PROXY
- RULE-SET,Streaming,PROXY
- RULE-SET,Global,PROXY
- RULE-SET,Unbreak,DIRECT
- RULE-SET,StreamingCN,DIRECT
- ## 测速网 因为节点众多，记得同时选漏网之鱼
- DOMAIN-SUFFIX,speed.cloudflare.com,🚀 手动选择
- DOMAIN-SUFFIX,bulianglin.com,🚀 手动选择
- DOMAIN-SUFFIX,speedtest.net,🚀 手动选择
- DOMAIN-SUFFIX,ooklaserver.net,🚀 手动选择
- ## 检测DNS泄漏
- DOMAIN-SUFFIX,ipleak.net,PROXY
- ## 大陆IP直连
- RULE-SET,China,DIRECT
- RULE-SET,ChinaIP,DIRECT
- RULE-SET,ChinaDomain,DIRECT
- GEOIP,CN,DIRECT
- ## 漏网之鱼
- MATCH,PROXY
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+RULE-SET,Bilibili
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+RULE-SET,Unbreak
+RULE-SET,StreamingCN
+RULE-SET,China
+RULE-SET,ChinaIP
+RULE-SET,ChinaDomain
+GEOIP,CN
