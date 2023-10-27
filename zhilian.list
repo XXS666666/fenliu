@@ -11,4 +11,3 @@ RULE-SET,StreamingCN
 RULE-SET,China
 RULE-SET,ChinaIP
 RULE-SET,ChinaDomain
-GEOIP,CN
