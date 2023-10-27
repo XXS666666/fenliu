@@ -1,10 +1,10 @@
- ## 代理规则
+;代理规则
   - 'DOMAIN,cdn.u8899.de,PROXY'
-  ## 常用国内直连优先
+; 常用国内直连优先
   - 'DOMAIN-SUFFIX,wechat.com,DIRECT'
   - 'DOMAIN-SUFFIX,qq.com,DIRECT'
   - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
-  ## 全球代理
+;全球代理
   - 'DOMAIN-SUFFIX,onedrive.live.com,PROXY'
   - 'DOMAIN-SUFFIX,cdn.jsdelivr.net,PROXY'
   - 'DOMAIN-SUFFIX,pureapk.com,PROXY'
@@ -37,7 +37,7 @@
   - 'DOMAIN-SUFFIX,openstreetmap.org,PROXY' #地图？
   - 'DOMAIN-SUFFIX,gstatic.com,PROXY' #地图？
   - 'DOMAIN-SUFFIX,terabox.com,PROXY' #百度网盘海外版
-  ## Rule-SET区域
+;Rule-SET区域
   - 'RULE-SET,Advertising,REJECT'
   - 'RULE-SET,Hijacking,REJECT'
   - 'RULE-SET,Privacy,REJECT'
@@ -68,17 +68,17 @@
   - 'RULE-SET,Global,PROXY'
   - 'RULE-SET,Unbreak,DIRECT'
   - 'RULE-SET,StreamingCN,DIRECT'
-  ## 测速网 因为节点众多，记得同时选漏网之鱼
+;测速网 因为节点众多，记得同时选漏网之鱼
   - 'DOMAIN-SUFFIX,speed.cloudflare.com,PROXY'
   - 'DOMAIN-SUFFIX,bulianglin.com,PROXY'
   - 'DOMAIN-SUFFIX,speedtest.net,PROXY'
   - 'DOMAIN-SUFFIX,ooklaserver.net,PROXY'
-  ## 检测DNS泄漏
+;检测DNS泄漏
   - 'DOMAIN-SUFFIX,ipleak.net,PROXY'
-  ## 大陆IP直连
+;大陆IP直连
   - 'RULE-SET,China,DIRECT'
   - 'RULE-SET,ChinaIP,DIRECT'
   - 'RULE-SET,ChinaDomain,DIRECT'
   - 'GEOIP,CN,DIRECT'
-  ## 漏网之鱼
+;漏网之鱼
   - 'MATCH,PROXY'
