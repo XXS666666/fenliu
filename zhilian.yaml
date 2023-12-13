@@ -9,5 +9,5 @@ DOMAIN-SUFFIX,hdslb.com
 RULE-SET,Unbreak
 RULE-SET,StreamingCN
 RULE-SET,China
-RULE-SET,ChinaIP
+#RULE-SET,ChinaIP
 RULE-SET,ChinaDomain
